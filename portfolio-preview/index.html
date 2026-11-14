@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunag KP — pick a direction</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face { font-family: "Big Shoulders"; src: url(assets/fonts/big-shoulders-display-latin-wght-normal.woff2) format("woff2"); font-weight: 100 900; font-display: swap; }
+  @font-face { font-family: "Bodoni"; src: url(assets/fonts/bodoni-moda-latin-opsz-normal.woff2) format("woff2"); font-weight: 400 900; font-display: swap; }
+  @font-face { font-family: "Instrument"; src: url(assets/fonts/instrument-sans-latin-wght-normal.woff2) format("woff2"); font-weight: 400 700; font-display: swap; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0a0909; color: #ece5d8; font: 400 15px/1.6 "Instrument", Helvetica, Arial, sans-serif; }
+  header { padding: 28px clamp(20px, 4vw, 56px) 18px; font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: #9a9287; }
+  main { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; min-height: calc(100svh - 70px); }
+  a { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 72svh; padding: clamp(20px, 4vw, 56px); color: inherit; text-decoration: none; overflow: hidden; isolation: isolate; }
+  a img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform 1.4s cubic-bezier(.2,.7,.1,1); }
+  a::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, rgba(10,9,9,.94) 6%, rgba(10,9,9,.3) 60%, rgba(10,9,9,.15)); }
+  a:hover img, a:focus-visible img { transform: scale(1.05); }
+  a:focus-visible { outline: 2px solid #ece5d8; outline-offset: -6px; }
+  .k { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; }
+  .a .k { color: #f0a23b; } .b .k { color: #e4472b; }
+  h2 { margin: .1em 0 .2em; font-weight: 900; }
+  .a h2 { font: 900 clamp(3.4rem, 8vw, 8rem)/.85 "Big Shoulders", Impact, sans-serif; text-transform: uppercase; }
+  .b h2 { font: 500 clamp(3rem, 6.6vw, 6.8rem)/.95 "Bodoni", Didot, serif; letter-spacing: -.02em; }
+  p { margin: 0; max-width: 40ch; color: #cfc7bb; }
+  @media (max-width: 760px) { main { grid-template-columns: 1fr; } a { min-height: 60svh; } }
+</style>
+</head>
+<body>
+<header>Sunag KP · Portfolio · Two directions, same content</header>
+<main>
+  <a class="a" href="a/">
+    <img src="assets/img/a-hero-wide-1280.webp" alt="">
+    <span class="k">Direction A</span>
+    <h2>Night Shoot</h2>
+    <p>Night photography, letterbox bars, screenplay labels and a running timecode. Tungsten amber. Condensed poster type.</p>
+  </a>
+  <a class="b" href="b/">
+    <img src="assets/img/b-hero-wide-1280.webp" alt="">
+    <span class="k">Direction B</span>
+    <h2>The Red Tie</h2>
+    <p>Warm monochrome portraits where only the red tie keeps its colour. A red line opens into the picture. Serif titles, chapters that pan sideways.</p>
+  </a>
+</main>
+</body>
+</html>

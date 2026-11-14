@@ -1,0 +1,8 @@
+[
+ {"name":"a-hero-wide","src":"photos/raw/03-rooftop.jpg","grade":"night","crop":[0,0.105,1,0.555],"widths":[2000,1280],"vignette":0.5,"vcenter":[0.3,0.4]},
+ {"name":"a-hero-tall","src":"photos/raw/03-rooftop.jpg","grade":"night","crop":[0,0.06,0.72,1],"widths":[900],"vignette":0.45,"vcenter":[0.45,0.35]},
+ {"name":"a-kpmg","src":"photos/raw/04-kpmg.jpg","grade":"night","crop":[0,0.27,1,0.83],"widths":[1100,700],"params":{"exposure":0.92,"gamma":1.35},"vignette":0.55,"vcenter":[0.5,0.3]},
+ {"name":"b-hero-wide","src":"photos/raw/05-suit-landscape.jpg","grade":"tie","crop":[0,0.04,1,0.96],"widths":[2000,1280],"params":{"gamma":1.5},"vignette":0.5,"vcenter":[0.52,0.4]},
+ {"name":"b-hero-tall","src":"photos/raw/05-suit-landscape.jpg","grade":"tie","crop":[0.335,0,0.705,1],"widths":[900],"params":{"gamma":1.5},"vignette":0.4,"vcenter":[0.5,0.35]},
+ {"name":"b-kpmg","src":"photos/raw/04-kpmg.jpg","grade":"tie","crop":[0,0.27,1,0.83],"widths":[1100,700],"params":{"gamma":1.3,"hold":0.0},"vignette":0.5,"vcenter":[0.5,0.3]}
+]
